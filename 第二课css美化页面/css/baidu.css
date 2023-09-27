@@ -1,0 +1,25 @@
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333;
+}
+h2{
+    font-size: 18px;
+    color: #d5252d;
+    font-weight: normal;
+    text-decoration: underline;
+}
+h2 span{
+    color: #2525d3;
+    text-decoration: underline;
+}
+.red span{
+color: #d52d2d;
+}
+.green{
+    color: #167a16;
+}
+.gray{
+    color: #595959;
+    text-decoration: underline;
+}

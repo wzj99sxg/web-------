@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.box{
+    width: 604px;
+    height: 452px;
+    margin: 50px auto;
+    border: 5px solid #aaa;
+    border-radius: 30px;
+}
+.one{
+    width: 604px;
+    height: 226px;
+    background-image: url(../images/jigsaw1.jpg),url(../images/jigsaw2.jpg),url(../images/jigsaw3.jpg);
+    background-repeat: no-repeat;
+    background-position: left top,center top,right top;
+    border-radius: 26px 26px 0
+     0;
+}
+.two{
+    width: 604px;
+    height: 226px;
+    background-image: url(../images/jigsaw4.jpg),url(../images/jigsaw5.jpg),url(../images/jigsaw6.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom,center bottom,right bottom;
+    border-radius: 0 0 26px 26px;
+}

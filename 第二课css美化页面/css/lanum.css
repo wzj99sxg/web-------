@@ -1,0 +1,19 @@
+p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    line-height: 28px;
+    text-indent: 2em;
+}
+.blue{
+    color: blue;
+    font-style: italic;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+}
+#number{
+    font-size: 26px;
+}
+
+

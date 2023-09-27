@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>圆角和多背景图像</title>
+	<style type="text/css">
+		/* 圆角盒子 */
+		.one {
+			width: 200px;
+			height: 200px;
+			background-color: blue;			
+			border-radius: 30px 40px 50px 60px/30px 50px 70px 90px;
+			border-radius: 100px;
+		}
+
+		/* 正圆形盒子 */
+		.two {
+			margin-top: 10px;			
+			border-radius: 50%;			
+		}
+
+		/* 圆角矩形 */
+		.three {
+			width: 200px;
+			height: 50px;
+			background-color: green;
+			margin-top: 10px;			
+            border-radius: 10px;
+		}
+
+		/* 多背景图像 */
+		.four {
+			width: 300px;
+			height: 300px;
+			border: 1px solid gray;
+			margin-top: 10px;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box">
+		<div class="one"></div>
+		<img class="two" src="images\pig.jpg" alt="图片" />
+		<div class="three"></div>
+		<div class="four"></div>
+	</div>
+</body>
+
+</html>
