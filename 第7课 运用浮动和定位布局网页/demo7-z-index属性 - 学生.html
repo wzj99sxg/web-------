@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>z-index属性</title>
+	<style>
+		.box {
+			width: 300px;
+			height: 300px;
+			background-color: #eee;
+			margin: 50px auto;
+			
+		}
+
+		.one,
+		.two,
+		.three {
+			width: 100px;
+			height: 50px;
+			background-color: #f90;
+			margin: 10px;
+		}
+
+		.one {
+			background-color: #30f;
+		}
+
+		.two {
+			background-color: #3c9;
+		}
+
+		/* one位于上100px、左150px位置，顶层 */
+		.one {
+			
+		}
+
+		/* two位于上120px、左170px位置 */
+		.two {
+			
+		}
+
+		/* three位于上140px、左190px位置 */
+		.three {
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box">
+		<div class="one">one</div>
+		<div class="two">two</div>
+		<div class="three">three</div>
+	</div>
+</body>
+
+</html>
