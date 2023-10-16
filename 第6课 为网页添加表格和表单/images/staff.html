@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\web网页技术王镇佳\第6课 为网页添加表格和表单\css\staff.css">
+    <title>王镇佳的员工档案</title>
+</head>
+<body>
+    <div class="box">
+        <form action="#">
+            <h2>员工档案</h2>
+            <p><input type="text" placeholder="本人真实姓名" class="name"></p>
+            <p><input type="text" placeholder="请填写实际年龄" class="age"></p>
+            <p  class="choose">
+                <label type="radio" name="sex" checked>男</label>
+                <label for="radio"  name="sex" >女</label>
+            </p>
+            <p class="choose">
+               <label> <input type="checkbox">技术部</label>
+               <label> <input type="checkbox">行政部</label>
+               <label> <input type="checkbox">财务部</label>
+               <label> <input type="checkbox">人力资源部</label>
+            </p>
+            <p>
+                <select name="" id="" class="company">
+                    <option value="北京分公司"></option>
+                    <option value="selected">上海分公司</option>
+                    <option value="">西安分公司</option>
+                </select>
+            </p>
+            <p>
+                <input type="text" placeholder="工资薪资" class="money">
+                <span>元/月（收入）</span>
+            </p>
+            <p>
+                <textarea class="message" placeholder="请简要描述自己的工作职责"></textarea>
+            </p>
+            <p>
+                <input type="submit" class="btn" value="提    交">
+            </p>
+        </form>
+
+    </div>
+</body>
+</html>
