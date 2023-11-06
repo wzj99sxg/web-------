@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>animation-duration 属性</title>
+	<style type="text/css">
+		div{
+			width:200px;
+			height:150px;
+			margin:50px 0px;
+			border-radius:50%;
+			background:#F60;
+			animation-name: mymove;
+			animation-duration: 8s;	
+			animation-iteration-count: 2;
+			animation-direction:alternate ;			
+		}
+
+		/* 动画：水平向右移动1000px，同时旋转3圈 */
+		@keyframes mymove{
+			from{
+				transform: translate(0) rotate(0deg);
+			}
+			to{
+				transform: translate(1000px) rotate(1080deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

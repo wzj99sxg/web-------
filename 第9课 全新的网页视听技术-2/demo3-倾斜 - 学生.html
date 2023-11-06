@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>倾斜-skew()方法</title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 100px;
+			margin: 100px auto;
+			background-color: skyblue;
+			border: 1px solid black;
+			transition: all 1s;
+		}
+
+		/* 鼠标经过时沿x轴倾斜30度，y轴倾斜10deg */
+		div:hover {
+			transform: skew(30deg,10deg);
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div>我要倾斜</div>
+</body>
+
+</html>

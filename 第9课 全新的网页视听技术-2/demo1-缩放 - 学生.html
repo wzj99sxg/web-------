@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缩放-scale方法</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            background-color: blue;
+            transition: all 2s;
+            transform-origin: left bottom;
+        }
+        div:hover {
+            /* 1.盒子的宽高放大原来的2倍 */
+            transform: scale(2,2);
+            /* 2. 宽度为2倍，高度不变 */
+            /*transform: scale(2,1);
+            /* 3.等比例缩放，只写一个倍数 ，缩小为原来的0.5倍*/
+            /*transform: scale(0.5);
+            /* 4.缩放与直接修改盒子宽高相比较的优势：不会影响其他盒子，而且可以设置缩放的中心点 */
+            /*width: 200px;
+            height: 200px;*/
+                    
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    我是其他内容    
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>王镇佳的CSS3进度条</title>
+    <style>
+        .bar {
+            width: 150px;
+            height: 15px;
+            border: 3px solid red;
+            border-radius: 7px;
+            padding: 1px;
+            margin: 50px auto;
+        }
+
+        .bar_in {
+            width: 82%;
+            height: 100%;
+            border-radius: 5px 0 0 5px;
+            background-color: red;
+            animation: move 2s;            
+        }
+        @keyframes move{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 82%;
+            }
+        } 
+        .bar:hover .bar_in{
+            animation: move 2s;
+        }       
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <div class="bar_in"></div>
+    </div>
+</body>
+
+</html>

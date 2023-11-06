@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    /* 558 352 */
+    width: 552px;
+    height: 346px;
+    margin: 50px auto;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+a {
+    display: block;
+    opacity: 0.5;
+    width: 174px;
+    height: 162px;
+    margin: 5px;
+    float: left;
+}
+
+.one {
+    background: url(../zhaopian/京剧人物谱图片/01.jpg)no-repeat;
+}
+
+.two {
+    background: url(../zhaopian/京剧人物谱图片/02.jpg) no-repeat;
+}
+
+.three {
+    background: url(../zhaopian/京剧人物谱图片/03.jpg) no-repeat;
+}
+
+.four {
+    background: url(../zhaopian/京剧人物谱图片/04.jpg) no-repeat;
+}
+
+.five {
+    background: url(../zhaopian/京剧人物谱图片/05.jpg) no-repeat;
+}
+
+.six {
+    background: url(../zhaopian/京剧人物谱图片/06.jpg) no-repeat;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover {
+    opacity: 1;
+}
